@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang=zh>
+<head>
+    <!-- so meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5" />
+    <meta name="description" content="时间过的真快啊，一下子就 3 年了，就连基础的 markdown 语法都忘了，还是得重新记录下。 标题语法要创建标题，请在单词或短语前面添加井号 (#) 。# 的数量代表了标题的级别。例如，添加三个 # 表示创建一个三级标题 (例如：### My Header)。 Heading level 1Heading level 3段落语法要创建段落，请使用空白行将一行或多行文本进行分隔。 I reall">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Markdown 语法示例">
+<meta property="og:url" content="https://wangsq-web.github.io.git/2024/11/21/markdown-%E8%AF%AD%E6%B3%95%E7%A4%BA%E4%BE%8B/index.html">
+<meta property="og:site_name" content="wangsq-web">
+<meta property="og:description" content="时间过的真快啊，一下子就 3 年了，就连基础的 markdown 语法都忘了，还是得重新记录下。 标题语法要创建标题，请在单词或短语前面添加井号 (#) 。# 的数量代表了标题的级别。例如，添加三个 # 表示创建一个三级标题 (例如：### My Header)。 Heading level 1Heading level 3段落语法要创建段落，请使用空白行将一行或多行文本进行分隔。 I reall">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://tse4-mm.cn.bing.net/th/id/OIP-C.Cp019hx0Wb5jFv4er94vrAHaE7">
+<meta property="og:image" content="https://mp-5b47f297-8b74-4d5b-8e97-e7fe39af5d78.cdn.bspapp.com/record_image/1727687921407.jpeg">
+<meta property="og:image" content="https://markdown.com.cn/assets/img/shiprock.c3b9a023.jpg">
+<meta property="article:published_time" content="2024-11-21T08:04:29.000Z">
+<meta property="article:modified_time" content="2024-11-21T09:24:29.447Z">
+<meta property="article:author" content="wsq">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://tse4-mm.cn.bing.net/th/id/OIP-C.Cp019hx0Wb5jFv4er94vrAHaE7">
+    
+    
+      
+        
+          <link rel="shortcut icon" href="/images/favicon.ico">
+        
+      
+      
+        
+          <link rel="icon" type="image/png" href="/images/favicon-192x192.png" sizes="192x192">
+        
+      
+      
+        
+          <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+        
+      
+    
+    <!-- title -->
+    <title>Markdown 语法示例</title>
+    <!-- async scripts -->
+    <!-- Google Analytics -->
+
+
+    <!-- Umami Analytics -->
+
+
+    <!-- styles -->
+    
+<link rel="stylesheet" href="/css/style.css">
+
+    <!-- persian styles -->
+    
+    <!-- rss -->
+    
+    
+	<!-- mathjax -->
+	
+<meta name="generator" content="Hexo 7.3.0"></head>
+
+<body class="max-width mx-auto px3 ltr">
+    
+      <div id="header-post">
+  <a id="menu-icon" href="#" aria-label="目录"><i class="fa-solid fa-bars fa-lg"></i></a>
+  <a id="menu-icon-tablet" href="#" aria-label="目录"><i class="fa-solid fa-bars fa-lg"></i></a>
+  <a id="top-icon-tablet" href="#" aria-label="顶部" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');" style="display:none;"><i class="fa-solid fa-chevron-up fa-lg"></i></a>
+  <span id="menu">
+    <span id="nav">
+      <ul>
+        <!--
+       --><li><a href="/">首页</a></li><!--
+     --><!--
+       --><li><a href="/about/">关于</a></li><!--
+     --><!--
+       --><li><a href="/archives/">归档</a></li><!--
+     --><!--
+       --><li><a target="_blank" rel="noopener" href="https://wangsq-web.github.io">项目</a></li><!--
+     -->
+      </ul>
+    </span>
+    <br/>
+    <span id="actions">
+      <ul>
+        
+        
+        <li><a class="icon" aria-label="下一篇" href="/2020/09/01/post1/"><i class="fa-solid fa-chevron-right" aria-hidden="true" onmouseover="$('#i-next').toggle();" onmouseout="$('#i-next').toggle();"></i></a></li>
+        
+        <li><a class="icon" aria-label="返回顶部" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fa-solid fa-chevron-up" aria-hidden="true" onmouseover="$('#i-top').toggle();" onmouseout="$('#i-top').toggle();"></i></a></li>
+        <li><a class="icon" aria-label="分享文章" href="#"><i class="fa-solid fa-share-alt" aria-hidden="true" onmouseover="$('#i-share').toggle();" onmouseout="$('#i-share').toggle();" onclick="$('#share').toggle();return false;"></i></a></li>
+      </ul>
+      <span id="i-prev" class="info" style="display:none;">上一篇</span>
+      <span id="i-next" class="info" style="display:none;">下一篇</span>
+      <span id="i-top" class="info" style="display:none;">返回顶部</span>
+      <span id="i-share" class="info" style="display:none;">分享文章</span>
+    </span>
+    <br/>
+    <div id="share" style="display: none">
+      <ul>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.facebook.com/sharer.php?u=https://wangsq-web.github.io.git/2024/11/21/markdown-%E8%AF%AD%E6%B3%95%E7%A4%BA%E4%BE%8B/"><i class="fab fa-facebook " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://twitter.com/share?url=https://wangsq-web.github.io.git/2024/11/21/markdown-%E8%AF%AD%E6%B3%95%E7%A4%BA%E4%BE%8B/&text=Markdown 语法示例"><i class="fab fa-twitter " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.linkedin.com/shareArticle?url=https://wangsq-web.github.io.git/2024/11/21/markdown-%E8%AF%AD%E6%B3%95%E7%A4%BA%E4%BE%8B/&title=Markdown 语法示例"><i class="fab fa-linkedin " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://pinterest.com/pin/create/bookmarklet/?url=https://wangsq-web.github.io.git/2024/11/21/markdown-%E8%AF%AD%E6%B3%95%E7%A4%BA%E4%BE%8B/&is_video=false&description=Markdown 语法示例"><i class="fab fa-pinterest " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="mailto:?subject=Markdown 语法示例&body=Check out this article: https://wangsq-web.github.io.git/2024/11/21/markdown-%E8%AF%AD%E6%B3%95%E7%A4%BA%E4%BE%8B/"><i class="fa-solid fa-envelope " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://getpocket.com/save?url=https://wangsq-web.github.io.git/2024/11/21/markdown-%E8%AF%AD%E6%B3%95%E7%A4%BA%E4%BE%8B/&title=Markdown 语法示例"><i class="fab fa-get-pocket " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://reddit.com/submit?url=https://wangsq-web.github.io.git/2024/11/21/markdown-%E8%AF%AD%E6%B3%95%E7%A4%BA%E4%BE%8B/&title=Markdown 语法示例"><i class="fab fa-reddit " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.stumbleupon.com/submit?url=https://wangsq-web.github.io.git/2024/11/21/markdown-%E8%AF%AD%E6%B3%95%E7%A4%BA%E4%BE%8B/&title=Markdown 语法示例"><i class="fab fa-stumbleupon " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://digg.com/submit?url=https://wangsq-web.github.io.git/2024/11/21/markdown-%E8%AF%AD%E6%B3%95%E7%A4%BA%E4%BE%8B/&title=Markdown 语法示例"><i class="fab fa-digg " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.tumblr.com/share/link?url=https://wangsq-web.github.io.git/2024/11/21/markdown-%E8%AF%AD%E6%B3%95%E7%A4%BA%E4%BE%8B/&name=Markdown 语法示例&description="><i class="fab fa-tumblr " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://news.ycombinator.com/submitlink?u=https://wangsq-web.github.io.git/2024/11/21/markdown-%E8%AF%AD%E6%B3%95%E7%A4%BA%E4%BE%8B/&t=Markdown 语法示例"><i class="fab fa-hacker-news " aria-hidden="true"></i></a></li>
+</ul>
+
+    </div>
+    
+    
+      <div id="toc">
+        <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%A0%87%E9%A2%98%E8%AF%AD%E6%B3%95"><span class="toc-number">1.</span> <span class="toc-text">标题语法</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Heading-level-1"><span class="toc-number">2.</span> <span class="toc-text">Heading level 1</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Heading-level-3"><span class="toc-number">2.1.</span> <span class="toc-text">Heading level 3</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%AE%B5%E8%90%BD%E8%AF%AD%E6%B3%95"><span class="toc-number">3.</span> <span class="toc-text">段落语法</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%8D%A2%E8%A1%8C%E8%AF%AD%E6%B3%95"><span class="toc-number">4.</span> <span class="toc-text">换行语法</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%BC%BA%E8%B0%83%E8%AF%AD%E6%B3%95"><span class="toc-number">5.</span> <span class="toc-text">强调语法</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%B2%97%E4%BD%93%EF%BC%88Bold%EF%BC%89"><span class="toc-number">5.1.</span> <span class="toc-text">粗体（Bold）</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%96%9C%E4%BD%93%EF%BC%88Italic%EF%BC%89"><span class="toc-number">5.2.</span> <span class="toc-text">斜体（Italic）</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%B2%97%E4%BD%93%EF%BC%88Bold%EF%BC%89%E5%92%8C%E6%96%9C%E4%BD%93%EF%BC%88Italic%EF%BC%89"><span class="toc-number">5.3.</span> <span class="toc-text">粗体（Bold）和斜体（Italic）</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%BC%95%E7%94%A8%E8%AF%AD%E6%B3%95"><span class="toc-number">6.</span> <span class="toc-text">引用语法</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%B5%8C%E5%A5%97%E5%9D%97%E5%BC%95%E7%94%A8"><span class="toc-number">6.1.</span> <span class="toc-text">嵌套块引用</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%B8%A6%E6%9C%89%E5%85%B6%E5%AE%83%E5%85%83%E7%B4%A0%E7%9A%84%E5%9D%97%E5%BC%95%E7%94%A8"><span class="toc-number">6.2.</span> <span class="toc-text">带有其它元素的块引用</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#The-quarterly-results-look-great"><span class="toc-number">6.3.</span> <span class="toc-text">The quarterly results look great!</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%88%97%E8%A1%A8%E8%AF%AD%E6%B3%95"><span class="toc-number">7.</span> <span class="toc-text">列表语法</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%9C%89%E5%BA%8F%E5%88%97%E8%A1%A8"><span class="toc-number">7.1.</span> <span class="toc-text">有序列表</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%97%A0%E5%BA%8F%E5%88%97%E8%A1%A8"><span class="toc-number">7.2.</span> <span class="toc-text">无序列表</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%9C%A8%E5%88%97%E8%A1%A8%E4%B8%AD%E5%B5%8C%E5%A5%97%E5%85%B6%E4%BB%96%E5%85%83%E7%B4%A0"><span class="toc-number">7.3.</span> <span class="toc-text">在列表中嵌套其他元素</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BB%A3%E7%A0%81%E8%AF%AD%E6%B3%95"><span class="toc-number">8.</span> <span class="toc-text">代码语法</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BB%A3%E7%A0%81%E5%9D%97"><span class="toc-number">8.1.</span> <span class="toc-text">代码块</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%BD%AC%E4%B9%89%E5%8F%8D%E5%BC%95%E5%8F%B7"><span class="toc-number">8.2.</span> <span class="toc-text">转义反引号</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%88%86%E9%9A%94%E7%BA%BF%E8%AF%AD%E6%B3%95"><span class="toc-number">9.</span> <span class="toc-text">分隔线语法</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E9%93%BE%E6%8E%A5%E8%AF%AD%E6%B3%95"><span class="toc-number">10.</span> <span class="toc-text">链接语法</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%BB%99%E9%93%BE%E6%8E%A5%E5%A2%9E%E5%8A%A0-Title"><span class="toc-number">10.1.</span> <span class="toc-text">给链接增加 Title</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%BD%91%E5%9D%80%E5%92%8CEmail%E5%9C%B0%E5%9D%80"><span class="toc-number">10.2.</span> <span class="toc-text">网址和Email地址</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%B8%A6%E6%A0%BC%E5%BC%8F%E5%8C%96%E7%9A%84%E9%93%BE%E6%8E%A5"><span class="toc-number">10.3.</span> <span class="toc-text">带格式化的链接</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%9B%BE%E7%89%87%E8%AF%AD%E6%B3%95"><span class="toc-number">11.</span> <span class="toc-text">图片语法</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%93%BE%E6%8E%A5%E5%9B%BE%E7%89%87"><span class="toc-number">11.1.</span> <span class="toc-text">链接图片</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%BD%AC%E4%B9%89%E5%AD%97%E7%AC%A6%E8%AF%AD%E6%B3%95"><span class="toc-number">12.</span> <span class="toc-text">转义字符语法</span></a></li></ol>
+      </div>
+    
+  </span>
+</div>
+
+    
+    <div class="content index py4 ">
+        
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+  <header>
+    
+    <h1 class="posttitle p-name" itemprop="name headline">
+        Markdown 语法示例
+    </h1>
+
+
+
+    <div class="meta">
+      <span class="author p-author h-card" itemprop="author" itemscope itemtype="http://schema.org/Person">
+        <span class="p-name" itemprop="name">wsq</span>
+      </span>
+      
+    <div class="postdate">
+      
+        <time datetime="2024-11-21T08:04:29.000Z" class="dt-published" itemprop="datePublished">2024-11-21</time>
+        
+      
+    </div>
+
+
+      
+
+      
+
+    </div>
+  </header>
+  
+
+  <div class="content e-content" itemprop="articleBody">
+    <p>时间过的真快啊，一下子就 3 年了，就连基础的 markdown 语法都忘了，还是得重新记录下。</p>
+<h2 id="标题语法"><a href="#标题语法" class="headerlink" title="标题语法"></a>标题语法</h2><p>要创建标题，请在单词或短语前面添加井号 (#) 。# 的数量代表了标题的级别。例如，添加三个 # 表示创建一个三级标题 (例如：### My Header)。</p>
+<h2 id="Heading-level-1"><a href="#Heading-level-1" class="headerlink" title="Heading level 1"></a>Heading level 1</h2><h3 id="Heading-level-3"><a href="#Heading-level-3" class="headerlink" title="Heading level 3"></a>Heading level 3</h3><h2 id="段落语法"><a href="#段落语法" class="headerlink" title="段落语法"></a>段落语法</h2><p>要创建段落，请使用空白行将一行或多行文本进行分隔。</p>
+<p>I really like using Markdown.</p>
+<p>I think I’ll use it to format all of my documents from now on.</p>
+<h2 id="换行语法"><a href="#换行语法" class="headerlink" title="换行语法"></a>换行语法</h2><p>在一行的末尾添加两个或多个空格，然后按回车键,即可创建一个换行(<br>)。</p>
+<p>This is the first line.<br>And this is the second line.</p>
+<h2 id="强调语法"><a href="#强调语法" class="headerlink" title="强调语法"></a>强调语法</h2><p>通过将文本设置为粗体或斜体来强调其重要性。</p>
+<h3 id="粗体（Bold）"><a href="#粗体（Bold）" class="headerlink" title="粗体（Bold）"></a>粗体（Bold）</h3><p>要加粗文本，请在单词或短语的前后各添加两个星号（asterisks）或下划线（underscores）。如需加粗一个单词或短语的中间部分用以表示强调的话，请在要加粗部分的两侧各添加两个星号（asterisks）。</p>
+<p>I just love <strong>bold text</strong>.<br>I just love <strong>bold text</strong>.<br>Love<strong>is</strong>bold</p>
+<h3 id="斜体（Italic）"><a href="#斜体（Italic）" class="headerlink" title="斜体（Italic）"></a>斜体（Italic）</h3><p>要用斜体显示文本，请在单词或短语前后添加一个星号（asterisk）或下划线（underscore）。要斜体突出单词的中间部分，请在字母前后各添加一个星号，中间不要带空格。</p>
+<p>Italicized text is the <em>cat’s meow</em>.<br>Italicized text is the <em>cat’s meow</em>.<br>A<em>cat</em>meow</p>
+<h3 id="粗体（Bold）和斜体（Italic）"><a href="#粗体（Bold）和斜体（Italic）" class="headerlink" title="粗体（Bold）和斜体（Italic）"></a>粗体（Bold）和斜体（Italic）</h3><p>要同时用粗体和斜体突出显示文本，请在单词或短语的前后各添加三个星号或下划线。要加粗并用斜体显示单词或短语的中间部分，请在要突出显示的部分前后各添加三个星号，中间不要带空格。</p>
+<p>This text is <em><strong>really important</strong></em>.<br>This text is <strong><em>really important</em></strong>.<br>This is really<em><strong>very</strong></em>important text.</p>
+<h2 id="引用语法"><a href="#引用语法" class="headerlink" title="引用语法"></a>引用语法</h2><p>要创建块引用，请在段落前添加一个 &gt; 符号</p>
+<blockquote>
+<p>Dorothy followed her through many of the beautiful rooms in her castle.</p>
+</blockquote>
+<h3 id="嵌套块引用"><a href="#嵌套块引用" class="headerlink" title="嵌套块引用"></a>嵌套块引用</h3><blockquote>
+<p>Dorothy followed her through many of the beautiful rooms in her castle.</p>
+<blockquote>
+<p>The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood.</p>
+</blockquote>
+</blockquote>
+<h3 id="带有其它元素的块引用"><a href="#带有其它元素的块引用" class="headerlink" title="带有其它元素的块引用"></a>带有其它元素的块引用</h3><blockquote>
+<h3 id="The-quarterly-results-look-great"><a href="#The-quarterly-results-look-great" class="headerlink" title="The quarterly results look great!"></a>The quarterly results look great!</h3><ul>
+<li>Revenue was off the chart.</li>
+<li>Profits were higher than ever.</li>
+</ul>
+<p> <em>Everything</em> is going according to <strong>plan</strong>.</p>
+</blockquote>
+<h2 id="列表语法"><a href="#列表语法" class="headerlink" title="列表语法"></a>列表语法</h2><p>可以将多个条目组织成有序或无序列表。</p>
+<h3 id="有序列表"><a href="#有序列表" class="headerlink" title="有序列表"></a>有序列表</h3><p>要创建有序列表，请在每个列表项前添加数字并紧跟一个英文句点。数字不必按数学顺序排列，但是列表应当以数字 1 起始。</p>
+<ol>
+<li>First item</li>
+<li>Second item</li>
+<li>Third item<ol>
+<li>Indented item</li>
+<li>Indented item</li>
+</ol>
+</li>
+<li>Fourth item</li>
+</ol>
+<h3 id="无序列表"><a href="#无序列表" class="headerlink" title="无序列表"></a>无序列表</h3><p>要创建无序列表，请在每个列表项前面添加破折号 (-)、星号 (*) 或加号 (+) 。缩进一个或多个列表项可创建嵌套列表。</p>
+<ul>
+<li>First item</li>
+<li>Second item</li>
+<li>Third item<ul>
+<li>Indented item</li>
+<li>Indented item</li>
+</ul>
+</li>
+<li>Fourth item</li>
+</ul>
+<h3 id="在列表中嵌套其他元素"><a href="#在列表中嵌套其他元素" class="headerlink" title="在列表中嵌套其他元素"></a>在列表中嵌套其他元素</h3><p>要在保留列表连续性的同时在列表中添加另一种元素，请将该元素缩进四个空格或一个制表符，如下例所示</p>
+<ul>
+<li><p>This is the first list item.</p>
+</li>
+<li><p>Here’s the second list item.</p>
+<blockquote>
+<p>A blockquote would look great below the second list item.</p>
+</blockquote>
+</li>
+<li><p>And here’s the third list item.</p>
+</li>
+</ul>
+<h2 id="代码语法"><a href="#代码语法" class="headerlink" title="代码语法"></a>代码语法</h2><p>要将单词或短语表示为代码，请将其包裹在反引号 (&#96;) 中。</p>
+<p>At the command prompt, type <code>nano</code>.</p>
+<h3 id="代码块"><a href="#代码块" class="headerlink" title="代码块"></a>代码块</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="转义反引号"><a href="#转义反引号" class="headerlink" title="转义反引号"></a>转义反引号</h3><p>如果你要表示为代码的单词或短语中包含一个或多个反引号，则可以通过将单词或短语包裹在双反引号(&#96;&#96;)中。</p>
+<p><code>Use `code` in your Markdown file.</code></p>
+<h2 id="分隔线语法"><a href="#分隔线语法" class="headerlink" title="分隔线语法"></a>分隔线语法</h2><p>要创建分隔线，请在单独一行上使用三个或多个星号 (***)、破折号 (—) 或下划线 (___) ，并且不能包含其他内容。</p>
+<hr>
+<hr>
+<hr>
+<h2 id="链接语法"><a href="#链接语法" class="headerlink" title="链接语法"></a>链接语法</h2><p>链接文本放在中括号内，链接地址放在后面的括号中，链接title可选。</p>
+<p>超链接Markdown语法代码：<a href="%E8%B6%85%E9%93%BE%E6%8E%A5%E5%9C%B0%E5%9D%80" title="超链接title">超链接显示名</a></p>
+<p>这是一个链接 <a target="_blank" rel="noopener" href="https://markdown.com.cn/">Markdown语法</a>。</p>
+<h3 id="给链接增加-Title"><a href="#给链接增加-Title" class="headerlink" title="给链接增加 Title"></a>给链接增加 Title</h3><p>链接title是当鼠标悬停在链接上时会出现的文字，这个title是可选的，它放在圆括号中链接地址后面，跟链接地址之间以空格分隔。</p>
+<p>这是一个链接 <a target="_blank" rel="noopener" href="https://markdown.com.cn/" title="最好的markdown教程">Markdown语法</a>。</p>
+<h3 id="网址和Email地址"><a href="#网址和Email地址" class="headerlink" title="网址和Email地址"></a>网址和Email地址</h3><p>使用尖括号可以很方便地把URL或者email地址变成可点击的链接。</p>
+<p><a target="_blank" rel="noopener" href="https://markdown.com.cn/">https://markdown.com.cn</a><br><a href="mailto:&#102;&#97;&#107;&#x65;&#x40;&#101;&#120;&#97;&#109;&#x70;&#x6c;&#x65;&#46;&#x63;&#x6f;&#109;">&#102;&#97;&#107;&#x65;&#x40;&#101;&#120;&#97;&#109;&#x70;&#x6c;&#x65;&#46;&#x63;&#x6f;&#109;</a></p>
+<h3 id="带格式化的链接"><a href="#带格式化的链接" class="headerlink" title="带格式化的链接"></a>带格式化的链接</h3><p>强调 链接, 在链接语法前后增加星号。 要将链接表示为代码，请在方括号中添加反引号。</p>
+<p>I love supporting the <strong><a target="_blank" rel="noopener" href="https://eff.org/">EFF</a></strong>.<br>This is the <em><a target="_blank" rel="noopener" href="https://www.markdownguide.org/">Markdown Guide</a></em>.<br>See the section on <a href="#code"><code>code</code></a>.</p>
+<h2 id="图片语法"><a href="#图片语法" class="headerlink" title="图片语法"></a>图片语法</h2><p>要添加图像，请使用感叹号 (!), 然后在方括号增加替代文本，图片链接放在圆括号里，括号里的链接后可以增加一个可选的图片标题文本。</p>
+<p>插入图片Markdown语法代码：<img src="https://tse4-mm.cn.bing.net/th/id/OIP-C.Cp019hx0Wb5jFv4er94vrAHaE7" alt="图片alt" title="图片title">。</p>
+<p><img src="https://mp-5b47f297-8b74-4d5b-8e97-e7fe39af5d78.cdn.bspapp.com/record_image/1727687921407.jpeg" alt="这是图片" title="Magic Gardens"></p>
+<h3 id="链接图片"><a href="#链接图片" class="headerlink" title="链接图片"></a>链接图片</h3><p>给图片增加链接，请将图像的Markdown 括在方括号中，然后将链接添加在圆括号中</p>
+<p><a target="_blank" rel="noopener" href="https://markdown.com.cn/"><img src="https://markdown.com.cn/assets/img/shiprock.c3b9a023.jpg" alt="沙漠中的岩石图片" title="Shiprock"></a></p>
+<h2 id="转义字符语法"><a href="#转义字符语法" class="headerlink" title="转义字符语法"></a>转义字符语法</h2><p>要显示原本用于格式化 Markdown 文档的字符，请在字符前面添加反斜杠字符 \ 。</p>
+<p>* Without the backslash, this would be a bullet in an unordered list.</p>
+<p>&lt;<br>&amp;<br>&copy;</p>
+
+  </div>
+</article>
+
+
+
+        
+          <div id="footer-post-container">
+  <div id="footer-post">
+
+    <div id="nav-footer" style="display: none">
+      <ul>
+        
+          <li><a href="/">首页</a></li>
+        
+          <li><a href="/about/">关于</a></li>
+        
+          <li><a href="/archives/">归档</a></li>
+        
+          <li><a target="_blank" rel="noopener" href="https://wangsq-web.github.io">项目</a></li>
+        
+      </ul>
+    </div>
+
+    
+    
+      <div id="toc-footer" style="display: none">
+        <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%A0%87%E9%A2%98%E8%AF%AD%E6%B3%95"><span class="toc-number">1.</span> <span class="toc-text">标题语法</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Heading-level-1"><span class="toc-number">2.</span> <span class="toc-text">Heading level 1</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Heading-level-3"><span class="toc-number">2.1.</span> <span class="toc-text">Heading level 3</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%AE%B5%E8%90%BD%E8%AF%AD%E6%B3%95"><span class="toc-number">3.</span> <span class="toc-text">段落语法</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%8D%A2%E8%A1%8C%E8%AF%AD%E6%B3%95"><span class="toc-number">4.</span> <span class="toc-text">换行语法</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%BC%BA%E8%B0%83%E8%AF%AD%E6%B3%95"><span class="toc-number">5.</span> <span class="toc-text">强调语法</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%B2%97%E4%BD%93%EF%BC%88Bold%EF%BC%89"><span class="toc-number">5.1.</span> <span class="toc-text">粗体（Bold）</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%96%9C%E4%BD%93%EF%BC%88Italic%EF%BC%89"><span class="toc-number">5.2.</span> <span class="toc-text">斜体（Italic）</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%B2%97%E4%BD%93%EF%BC%88Bold%EF%BC%89%E5%92%8C%E6%96%9C%E4%BD%93%EF%BC%88Italic%EF%BC%89"><span class="toc-number">5.3.</span> <span class="toc-text">粗体（Bold）和斜体（Italic）</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%BC%95%E7%94%A8%E8%AF%AD%E6%B3%95"><span class="toc-number">6.</span> <span class="toc-text">引用语法</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%B5%8C%E5%A5%97%E5%9D%97%E5%BC%95%E7%94%A8"><span class="toc-number">6.1.</span> <span class="toc-text">嵌套块引用</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%B8%A6%E6%9C%89%E5%85%B6%E5%AE%83%E5%85%83%E7%B4%A0%E7%9A%84%E5%9D%97%E5%BC%95%E7%94%A8"><span class="toc-number">6.2.</span> <span class="toc-text">带有其它元素的块引用</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#The-quarterly-results-look-great"><span class="toc-number">6.3.</span> <span class="toc-text">The quarterly results look great!</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%88%97%E8%A1%A8%E8%AF%AD%E6%B3%95"><span class="toc-number">7.</span> <span class="toc-text">列表语法</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%9C%89%E5%BA%8F%E5%88%97%E8%A1%A8"><span class="toc-number">7.1.</span> <span class="toc-text">有序列表</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%97%A0%E5%BA%8F%E5%88%97%E8%A1%A8"><span class="toc-number">7.2.</span> <span class="toc-text">无序列表</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%9C%A8%E5%88%97%E8%A1%A8%E4%B8%AD%E5%B5%8C%E5%A5%97%E5%85%B6%E4%BB%96%E5%85%83%E7%B4%A0"><span class="toc-number">7.3.</span> <span class="toc-text">在列表中嵌套其他元素</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BB%A3%E7%A0%81%E8%AF%AD%E6%B3%95"><span class="toc-number">8.</span> <span class="toc-text">代码语法</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BB%A3%E7%A0%81%E5%9D%97"><span class="toc-number">8.1.</span> <span class="toc-text">代码块</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%BD%AC%E4%B9%89%E5%8F%8D%E5%BC%95%E5%8F%B7"><span class="toc-number">8.2.</span> <span class="toc-text">转义反引号</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%88%86%E9%9A%94%E7%BA%BF%E8%AF%AD%E6%B3%95"><span class="toc-number">9.</span> <span class="toc-text">分隔线语法</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E9%93%BE%E6%8E%A5%E8%AF%AD%E6%B3%95"><span class="toc-number">10.</span> <span class="toc-text">链接语法</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%BB%99%E9%93%BE%E6%8E%A5%E5%A2%9E%E5%8A%A0-Title"><span class="toc-number">10.1.</span> <span class="toc-text">给链接增加 Title</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%BD%91%E5%9D%80%E5%92%8CEmail%E5%9C%B0%E5%9D%80"><span class="toc-number">10.2.</span> <span class="toc-text">网址和Email地址</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%B8%A6%E6%A0%BC%E5%BC%8F%E5%8C%96%E7%9A%84%E9%93%BE%E6%8E%A5"><span class="toc-number">10.3.</span> <span class="toc-text">带格式化的链接</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%9B%BE%E7%89%87%E8%AF%AD%E6%B3%95"><span class="toc-number">11.</span> <span class="toc-text">图片语法</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%93%BE%E6%8E%A5%E5%9B%BE%E7%89%87"><span class="toc-number">11.1.</span> <span class="toc-text">链接图片</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%BD%AC%E4%B9%89%E5%AD%97%E7%AC%A6%E8%AF%AD%E6%B3%95"><span class="toc-number">12.</span> <span class="toc-text">转义字符语法</span></a></li></ol>
+      </div>
+    
+
+    <div id="share-footer" style="display: none">
+      <ul>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.facebook.com/sharer.php?u=https://wangsq-web.github.io.git/2024/11/21/markdown-%E8%AF%AD%E6%B3%95%E7%A4%BA%E4%BE%8B/"><i class="fab fa-facebook fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://twitter.com/share?url=https://wangsq-web.github.io.git/2024/11/21/markdown-%E8%AF%AD%E6%B3%95%E7%A4%BA%E4%BE%8B/&text=Markdown 语法示例"><i class="fab fa-twitter fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.linkedin.com/shareArticle?url=https://wangsq-web.github.io.git/2024/11/21/markdown-%E8%AF%AD%E6%B3%95%E7%A4%BA%E4%BE%8B/&title=Markdown 语法示例"><i class="fab fa-linkedin fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://pinterest.com/pin/create/bookmarklet/?url=https://wangsq-web.github.io.git/2024/11/21/markdown-%E8%AF%AD%E6%B3%95%E7%A4%BA%E4%BE%8B/&is_video=false&description=Markdown 语法示例"><i class="fab fa-pinterest fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="mailto:?subject=Markdown 语法示例&body=Check out this article: https://wangsq-web.github.io.git/2024/11/21/markdown-%E8%AF%AD%E6%B3%95%E7%A4%BA%E4%BE%8B/"><i class="fa-solid fa-envelope fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://getpocket.com/save?url=https://wangsq-web.github.io.git/2024/11/21/markdown-%E8%AF%AD%E6%B3%95%E7%A4%BA%E4%BE%8B/&title=Markdown 语法示例"><i class="fab fa-get-pocket fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://reddit.com/submit?url=https://wangsq-web.github.io.git/2024/11/21/markdown-%E8%AF%AD%E6%B3%95%E7%A4%BA%E4%BE%8B/&title=Markdown 语法示例"><i class="fab fa-reddit fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.stumbleupon.com/submit?url=https://wangsq-web.github.io.git/2024/11/21/markdown-%E8%AF%AD%E6%B3%95%E7%A4%BA%E4%BE%8B/&title=Markdown 语法示例"><i class="fab fa-stumbleupon fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://digg.com/submit?url=https://wangsq-web.github.io.git/2024/11/21/markdown-%E8%AF%AD%E6%B3%95%E7%A4%BA%E4%BE%8B/&title=Markdown 语法示例"><i class="fab fa-digg fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.tumblr.com/share/link?url=https://wangsq-web.github.io.git/2024/11/21/markdown-%E8%AF%AD%E6%B3%95%E7%A4%BA%E4%BE%8B/&name=Markdown 语法示例&description="><i class="fab fa-tumblr fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://news.ycombinator.com/submitlink?u=https://wangsq-web.github.io.git/2024/11/21/markdown-%E8%AF%AD%E6%B3%95%E7%A4%BA%E4%BE%8B/&t=Markdown 语法示例"><i class="fab fa-hacker-news fa-lg" aria-hidden="true"></i></a></li>
+</ul>
+
+    </div>
+
+    <div id="actions-footer">
+        <a id="menu" class="icon" href="#" onclick="$('#nav-footer').toggle();return false;"><i class="fa-solid fa-bars fa-lg" aria-hidden="true"></i> 菜单</a>
+        
+          <a id="toc" class="icon" href="#" onclick="$('#toc-footer').toggle();return false;"><i class="fa-solid fa-list fa-lg" aria-hidden="true"></i> 目录</a>
+        
+        <a id="share" class="icon" href="#" onclick="$('#share-footer').toggle();return false;"><i class="fa-solid fa-share-alt fa-lg" aria-hidden="true"></i> 分享</a>
+        <a id="top" style="display:none" class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fa-solid fa-chevron-up fa-lg" aria-hidden="true"></i> 返回顶部</a>
+    </div>
+
+  </div>
+</div>
+
+        
+        <footer id="footer">
+  <div class="footer-left">
+    Copyright &copy;
+    
+    
+    2016-2024
+    wsq
+  </div>
+  <div class="footer-right">
+    <nav>
+      <ul>
+        <!--
+       --><li><a href="/">首页</a></li><!--
+     --><!--
+       --><li><a href="/about/">关于</a></li><!--
+     --><!--
+       --><li><a href="/archives/">归档</a></li><!--
+     --><!--
+       --><li><a target="_blank" rel="noopener" href="https://wangsq-web.github.io">项目</a></li><!--
+     -->
+      </ul>
+    </nav>
+  </div>
+</footer>
+
+    </div>
+    <!-- styles -->
+
+
+
+  <link rel="preload" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" crossorigin="anonymous" onload="this.onload=null;this.rel='stylesheet'"/>
+
+
+    <!-- jquery -->
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" crossorigin="anonymous"></script>
+
+
+
+
+<!-- clipboard -->
+
+  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.7/clipboard.min.js" crossorigin="anonymous"></script>
+  
+  <script type="text/javascript">
+  $(function() {
+    // copy-btn HTML
+    var btn = "<span class=\"btn-copy tooltipped tooltipped-sw\" aria-label=\"复制到粘贴板！\">";
+    btn += '<i class="fa-regular fa-clone"></i>';
+    btn += '</span>';
+    // mount it!
+    $(".highlight table").before(btn);
+    var clip = new ClipboardJS('.btn-copy', {
+      text: function(trigger) {
+        return Array.from(trigger.nextElementSibling.querySelectorAll('.code')).reduce((str,it)=>str+it.innerText+'\n','')
+      }
+    });
+    clip.on('success', function(e) {
+      e.trigger.setAttribute('aria-label', "复制成功！");
+      e.clearSelection();
+    })
+  })
+  </script>
+
+
+<script src="/js/main.js"></script>
+
+<!-- search -->
+
+<!-- Baidu Analytics -->
+
+<!-- Cloudflare Analytics -->
+
+<!-- Disqus Comments -->
+
+<!-- utterances Comments -->
+
+</body>
+</html>
